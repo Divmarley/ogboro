@@ -111,24 +111,83 @@ convert "kofi kumi " to kk
 // //    console.log(1000+'1');
 // //    console.log(1000+'1');
 // // })
-const numbers = [45, 4, 9, 16, 25];
-let kk=numbers.filter(function (val) {
-    return val>12; 
-})
+// const numbers = [45, 4, 9, 16, 25];
+// let kk=numbers.filter(function (val) {
+//     return val>12; 
+// })
 
-console.log(kk);
+// console.log(kk);
 
 
-const movements=[200, 450, -400, 3000, -650, -130, 70, 1300]
-function add(total,value) {
-    return total+value;
+// const movements=[200, 450, -400, 3000, -650, -130, 70, 1300]
+// function add(total,value) {
+//     return total+value;
 
+// }
+// // let sum = movements.reduce(add); 
+
+
+
+// document.getElementById('demo').innerHTML=sum;
+
+
+// console.log(200+ 450+ -400+ 3000+ -650+ -130+ 70+ 1300);
+
+
+//quick test 
+
+// function Check_datatype(somethig){
+//     return typeof(somethig)
+// }
+
+
+// console.log(Check_datatype("hello"));
+// console.log(Check_datatype(true));
+// console.log(Check_datatype(12356));
+// console.log(Check_datatype([1,3,5,6,]));
+
+
+// const myNumbers = [ 1,2 ,5,6,7,8,3,4]
+// console.log(myNumbers.sort(function (a,b) {
+//     return b-a;
+// }));
+
+// const friend1 = "kofi"
+// const friend2 = "ama"
+// const friend3 = "stev"
+// const friend4 = "paul"
+// const friend5 = "joe"
+// const friend6 = "john"
+
+
+// const friends =["kofi","ama","stev","paul","joe","john","kofi",
+// "ama","stev","paul","joe","john"]
+// friends[0]="kay"
+
+// // console.log(friends.length-1);
+// console.log(friends[2]);
+// console.log(friends[4]);
+// console.log(friends);
+
+
+
+
+// Assignment 
+/*
+1.create an array of 5 datatype you know . and log your result to the console
+2.try access the last item in the array  and log your result to the console
+3. change the  2nd item in the array to 'prez nana addo'  and log your result to the console
+4.loop the array  and log your result to the console 
+
+*/
+const myarray =[true,1,'striing',79.087,[1]]
+// console.log(myarray);
+// console.log(myarray[4]);
+// console.log(myarray[myarray.length-1]);
+// myarray[1]= 'prez nana addo'
+// console.log(myarray);
+
+for(let i = 0; i < myarray.length; i++){
+    console.log(myarray[i]);
 }
-// let sum = movements.reduce(add); 
 
-
-
-document.getElementById('demo').innerHTML=sum;
-
-
-console.log(200+ 450+ -400+ 3000+ -650+ -130+ 70+ 1300);
